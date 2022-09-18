@@ -12,7 +12,7 @@ const promiseOutput = async (emosi) => {
     
     return jumlahEmosi
   } catch (error) {
-    console.log(error);
+    return error;
   }
 };
 
